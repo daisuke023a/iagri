@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAGRI - Hygiène & Jardinage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/brand logo/IAGRI.png" alt="Logo IAGRI">
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Rechercher des produits..." onkeyup="searchProduct()">
+        </div>
+        <div class="cart">
+            <a href="#">Panier</a>
+        </div>
+    </header>
+
+    <!-- Main Body -->
+    <main>
+        <section class="description">
+            <h1>Bienvenue chez IAGRI!</h1>
+            <p>Nous vendons des produits de qualité pour l'hygiène et le jardinage. Découvrez notre sélection d'articles pour améliorer votre quotidien et prendre soin de votre environnement.</p>
+        </section>
+
+        <!-- Carousels -->
+        <section class="carousel">
+            <h2 class="section-title">Produits d'Hygiène</h2>
+            <div class="carousel-items">
+                <a href="Advion-Balattes.html">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/advion balattes.png" alt="Advion Balattes">
+                <a href="Alphaban.html">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/alphaban.png" alt="Alphaban">
+                <a href="Alphabon-5L.html">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/alphabon 5L.png" alt="Alphabon 5L">
+                <a href="Boite-a-Appat.html">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/boite a appat.png" alt="Boîte à Appât">
+                <a href="Brigand Bloc.html">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/Brigand bloc.png" alt="Brigand Bloc">
+            </div>
+        </section>
+
+        <section class="carousel">
+            <h2 class="section-title">Produits de Jardinage</h2>
+            <div class="carousel-items">
+                <a href="CR55 L-Plus.html">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/cr55 l plus.png" alt="CR55 L Plus">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/dacs2512.png" alt="Dacs2512">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/fiprogel.png" alt="Fiprogel">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/KRTGR6720.png" alt="KRTGR6720">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/lovibond.png" alt="Lovibond">
+            </div>
+        </section>
+
+        <!-- More Products -->
+        <section class="carousel">
+            <h2 class="section-title">Autres Produits</h2>
+            <div class="carousel-items">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/POWEG9013.png" alt="POWEG9013">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/poweg63703.png" alt="Poweg63703">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/PULVÉRISATEUR PULMIC.png" alt="Pulvérisateur Pulmic">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/rodex.png" alt="Rodex">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/Stark L.png" alt="Stark L">
+            </div>
+        </section>
+
+        <section class="carousel">
+            <h2 class="section-title">Produits Divers</h2>
+            <div class="carousel-items">
+                <img src="C:/Users/devag/OneDrive/Desktop/IAGRI/siteweb/product pictures/thx95dk.png" alt="Thx95dk">
+                <img src="C:\Users\devag\OneDrive\Desktop\IAGRI\siteweb\product pictures\xc 53 s.png" alt="Xcc 53 S">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <h3>Localisation</h3>
+            <p>Adresse: COOPERATIVE UNIVERISATIRE G2 VILLA N°18 KOUBA, Kouba, Algeria</p>
+        </div>
+        <div class="footer-section">
+            <h3>Suivez-nous</h3>
+            <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Service Client</h3>
+            <p>Email: innoagri.dz@gmail.com</p>
+            <p>Téléphone: +213 552 58 76 82</p>
+        </div>
+    </footer>
+
+    <script>
+        function searchProduct() {
+            let searchValue = document.getElementById("searchInput").value;
+            if (searchValue.length > 0) {
+                console.log("Recherche : " + searchValue);
+                // Simuler une redirection pour le moment
+                alert("Recherche des produits : " + searchValue);
+            }
+        }
+    </script>
+
+</body>
+</html>

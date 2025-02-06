@@ -1,0 +1,137 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e8f5e9;
+}
+
+h1, h2, h3 {
+    color: #2e7d32;
+}
+
+a {
+    text-decoration: none;
+    color: #388e3c;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1b5e20;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-bottom: 2px solid #388e3c;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .search-bar input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #66bb6a;
+}
+
+header .search-bar input:focus {
+    border: 1px solid #388e3c;
+}
+
+header .cart a {
+    font-size: 18px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #388e3c;
+}
+
+/* Product Details */
+.product-details {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-description {
+    max-width: 600px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.product-description h2 {
+    margin-top: 0;
+}
+
+.product-description ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.product-description ul li {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+/* Footer Styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2e7d32;
+    color: white;
+    margin-top: 40px;
+}
+
+footer .footer-section {
+    width: 30%;
+}
+
+footer .footer-section h3 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+footer .footer-section p {
+    margin: 5px 0;
+}
